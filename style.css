@@ -4,8 +4,7 @@
     top: 0px;
     height: 100%;
     width: 100%;
-    background: #ffffff; 
- 
+    background: #ffffff;  
 }
 .container {
     position: absolute;
@@ -18,13 +17,7 @@
     background-image: url('envelope\ backgound.svg');
     background-repeat: no-repeat;
     background-position: center;
-   /* background: rgba(238, 213, 235, 0.931);
-
-   /* border-radius: 2px;
-    -ms-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -o-border-radius: 2px;
-    -webkit-border-radius: 2px;*/
+  
 }
 .container .envelope {
     position: absolute;
@@ -40,22 +33,22 @@
    background-position: center;
    background-size: 100%;
 
-  /*  transition: margin-top 300ms;
+    transition: margin-top 300ms;
     -ms-transition: margin-top 300ms;
     -moz-transition: margin-top 300ms;
     -o-transition: margin-top 300ms;
-    -webkit-transition: margin-top 300ms;*/
+    -webkit-transition: margin-top 300ms;
 }
 .container:hover .envelope {
     background-image: url('envelope\ front.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-   /* transition-delay: 150ms;
+   transition-delay: 150ms;
     -ms-transition-delay: 150ms;
     -moz-transition-delay: 150ms;
     -o-transition-delay: 150ms;
-    margin-top: -20px;*/
+    margin-top: -20px;
 }   
 .container .envelope .top {
     position: absolute;
@@ -65,10 +58,7 @@
     height: 73px;
     z-index: 30;
     overflow: hidden;
-   /* background-image: url('');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;*/
+  
 
     transform-origin: top;
     -ms-transform-origin: top;
@@ -76,27 +66,27 @@
     -o-transform-origin: top;
     -webkit-transform-origin: top;
 
-   /* transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
+    transition: transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
     -ms-transition: -ms-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
     -moz-transition: -moz-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
     -o-transition: -o-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
-    -webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;*/
+    -webkit-transition: -webkit-transform 300ms 150ms, z-index 0ms 150ms, height 300ms 0ms, top 300ms 0ms;
 }
 .container:hover .envelope .top {
-   /* transition: transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
+    transition: transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
     -ms-transition: -ms-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
     -moz-transition: -moz-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
     -o-transition: -o-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
-    -webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;*/
+    -webkit-transition: -webkit-transform 300ms 0ms, height 300ms 150ms, top 300ms 150ms;
 
     height: 10px;
     top: -60px;
 
-  /*  transform: rotateX(180deg);
+   transform: rotateX(180deg);
     -ms-transform: rotateX(180deg);
     -moz-transform: rotateX(180deg);
     -o-transform: rotateX(180deg);
-    -webkit-transform: rotateX(180deg);*/
+    -webkit-transform: rotateX(180deg);
 }
 .container .envelope .outer {
     position: absolute;
@@ -197,4 +187,4 @@
     display: inline-block;
     font-size: 13px;
     font-weight: bold;
-}*/
+}
